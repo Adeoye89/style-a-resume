@@ -1,6 +1,5 @@
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-	border: 0;
-	font: inherit;
+	font-family: 'Lato', 'Helvetica', 'Arial','sans-serif';
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -9,6 +8,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 html, body {
 	font-size: 16px;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 .clear {
@@ -19,6 +19,7 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial','sans-serif';
 }
 
 #cv {
@@ -29,6 +30,7 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
+	border-bottom: 2px solid orange;
 }
 
 #name h1 {
@@ -38,12 +40,16 @@ p {
 }
 
 #name h2 {
-	font-size: 2em;
+	font-size: 1.0em;
 	margin-left: 2px;
+	font-weight: normal;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial','sans-serif';
+
 }
 
 #mainArea {
 	padding: 0 40px;
+	
 }
 
 #headshot {
@@ -60,6 +66,8 @@ p {
 
 #name {
 	float: left;
+
+	
 }
 
 #contactDetails {
@@ -74,17 +82,22 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
+	
 }
 
 #contactDetails ul li a, a[href^=tel] {
 	text-decoration: none;
+	color: black;
 }
 
-#contactDetails ul li a:hover {
+#contactDetails ul li a:hover { 
+	
 }
 
 section {
 	padding: 20px 0 0;
+	border-top: 1px solid #dedede;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 section:first-child {
@@ -93,11 +106,12 @@ section:first-child {
 
 section:last-child {
 	padding: 20px 0 10px;
+	
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 20%;
 }
 
 .sectionContent {
@@ -107,7 +121,8 @@ section:last-child {
 
 .sectionTitle h1 {
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 1.0em;
+	color:#cf8a05;
 }
 
 .sectionContent h2 {
@@ -131,3 +146,4 @@ section:last-child {
 .keySkills ul li {
 	margin-bottom: 3px;
 }
+
